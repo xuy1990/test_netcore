@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebCore31</name>
+    </assembly>
+    <members>
+        <member name="M:WebCore31.Controllers.UserController.GetUsers">
+            <summary>
+            获取系统用户列表
+            </summary>
+            <remarks>
+            Demo
+            Get /api/user/get
+            </remarks>
+            <returns>系统用户列表</returns>
+            <response code="201">返回用户列表</response>
+            <response code="401">没有权限</response>
+        </member>
+        <member name="M:WebCore31.Controllers.UserController.CreateUser(WebCore31.Models.User)">
+            <summary>
+            新建用户
+            </summary>
+            <param name="user">新建用户信息</param>
+            <returns>是否创建成功信息</returns>
+        </member>
+        <member name="M:WebCore31.Logger.Info(System.String,System.Exception)">
+            <summary>
+            普通日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:WebCore31.Logger.Warn(System.String,System.Exception)">
+            <summary>
+            告警日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="M:WebCore31.Logger.Error(System.String,System.Exception)">
+            <summary>
+            错误日志
+            </summary>
+            <param name="message"></param>
+            <param name="exception"></param>
+        </member>
+        <member name="T:WebCore31.Models.User">
+            <summary>
+            用户实体类
+            </summary>
+        </member>
+        <member name="P:WebCore31.Models.User.id">
+            <summary>
+            用户主键Id
+            </summary>
+            <example>1</example>
+        </member>
+        <member name="P:WebCore31.Models.User.username">
+            <summary>
+            用户名
+            </summary>
+            <example>fanqi</example>
+        </member>
+        <member name="P:WebCore31.Models.User.password">
+            <summary>
+            用户密码
+            </summary>
+            <example>admin</example>
+        </member>
+        <member name="P:WebCore31.Models.User.age">
+            <summary>
+            用户年龄
+            </summary>
+            <example>25</example>
+        </member>
+        <member name="P:WebCore31.Models.User.email">
+            <summary>
+            用户邮箱
+            </summary>
+            <example>fanqisoft@163.com</example>
+        </member>
+    </members>
+</doc>

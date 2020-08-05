@@ -1,0 +1,14 @@
+packages
+
+Bin
+Debug
+Logs
+Realease
+Obj
+SqlResources
+OrleansAdoNetContent
+*.suo
+*.vs
+*.user
+*.zip
+*.rar
